@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/libraries/RootCommands/RootCommands.iml" filepath="$PROJECT_DIR$/libraries/RootCommands/RootCommands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invulnerapp-master-bf87815e5b8b61fd2b877ca358f1c7bc74be8f76.iml" filepath="$PROJECT_DIR$/invulnerapp-master-bf87815e5b8b61fd2b877ca358f1c7bc74be8f76.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">SocialEncryptor</string>
+    <string name="maindescription">here is a list of the applications installed on your device that
+        generate files containing unprotected private informations. this list is the result of a
+        search carried out on a sample of applications, and therefore some applications may not be
+        shown.</string>
+    <string name="checkdesc">
+    click on a menu icon to begin to examine the files of the relevant application.</string>
+    <string name="checktitle">
+    check your privacy</string>
+    <string name="enctitle">
+    Encryption</string>
+    <string name="encdesc">
+     See how apps respond to the encryption of their vulnerable files.</string>
+    <string name="credits">
+     Developed by Rizzi Ruggiero, University of Bari 2018</string>
+    <string name="version">
+     version</string>
+    <string name="thisisyourfile">
+     This is your file now</string>
+    <string name="encdone">
+     ENCRYPT DONE</string>
+    <string name="decdone">
+     DECRYPT DONE</string>
+    <string name="showbut">
+     SHOW FILE</string>
+    <string name="encbut">
+     ENCRYPT</string>
+    <string name="decbut">
+     DECRYPT</string><string name="descLoginData">
+     This file contains all the email and password combinations that the users wished to save with the Google Chrome browser. The theft of this file can lead to identity fraud issues.
+</string>
+    <string name="descEverNotes">
+    Evernote offers the possibility to protect your notes with a password, but does not encrypt them. This vulnerability can lead to targeted privacy leak attacks
+    </string>
+    <string name="descTumblrJournal">
+     This file contains all the tumblr profiles that you visited recently. This informations can help attackers to build more solid social engineering attacks.
+    </string>
+    <string name="descStalkArya">
+     At some point in this file you\'ll see the authentication factors that you used to connect your social account to the Stalkeame app, shown in plain text. This app\'s behavior can lead to serious identity frauds.
+    </string>
+    <string name="descWhatPref">
+     This file, in some cases, can contain your email and your phone number. This information together can led to well designed phishing attacks
+    </string>
+    <string name="descWhatsMsgs">
+     This file contains backups of all your whatsapp conversation, even the deleted ones of many years ago. Storing all this information is very dangerous, due to privacy leak risk
+    </string>
+    <string name="descBrowAuth">
+     Here you can find the authentication factors you used into the Android standard browser. Leaving this information unprotected can lead to identity fraud.
+    </string>
+    <string name="descInstaDirect">
+     In this file are stored all your instagram direct messages. This informations can help attackers building complex social engineering and phishing attacks.
+    </string>
+    <string name="descFaceSave">
+     Here are stored all the information about the elemets saved privately in facebook. This informations can help attackers building complex social engineering attacks.
+    </string>
+    <string name="descSaraPref">
+     Sarahah stores your authentication factors inside this file, in plain text. This app\'s behavior can lead to serious identity frauds.</string>
+    <string name="descRedsubs">
+     In this file are stored all the subreddit that you are subscribet to, not only the ones you are active in. This informations can help attackers building complex social engineering attacks.
+    </string>
+    <string name="descUnfollowContacts">
+     This database contains many information about your instagram followers, and also sorts them by the number of interaction that you have with each one of them. This informations can help attackers to build more solid social engineering attacks.
+    </string>
+    <string name="descMessangerThreads">
+     In this file are stored all your facebook conversation, and even more if you set this app as the default SMS app. This informations can help attackers building complex social engineering and phishing attacks.
+    </string>
+    <string name="descLineMess">
+     In this file are stored all your Line text and conversations. This informations can help attackers building complex social engineering and phishing attacks.
+    </string>
+    <string name="descAskPacklist">
+     This file contains a collection of all the app installed on your device, beside thier packages info. This information can help attacckers building collouding attacks.
+    </string>
+    <string name="descSkypeAuth">
+     If you used your phone number or your email to sign up on Skype, you\'ll find it here. The phone number or email alone are not dangerous to be shown in plain text, but knowing that you can fine one or another can help building phishing attacks.
+    </string>
+    <string name="redditHelper">
+     Search for a folder with your Reddit Username in it (the one without "journal")</string>
+    <string name="notesHelper">
+     Search for a folder called "user-". There you'll find the folder "notes".</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SocialEncryptor</string>
+    <string name="maindescription">ecco un elenco delle applicazioni installate sul tuo dispositivo         generare file contenenti informazioni private non protette. questa lista è il risultato di a         ricerca effettuata su un campione di applicazioni e quindi alcune applicazioni potrebbero non esserlo         mostrato.</string>
+    <string name="checkdesc">fare clic sull\'icona del menu per iniziare a esaminare i file dell\'applicazione pertinente.</string>
+    <string name="checktitle">controlla la tua privacy</string>
+    <string name="encdesc">Guarda come le app rispondono alla crittografia dei loro file vulnerabili.</string>
+    <string name="credits">Sviluppato da Rizzi Ruggiero, Università di Bari 2018</string>
+    <string name="version">versione</string>
+    <string name="thisisyourfile">Questo è il tuo file ora</string>
+    <string name="encdone">CIFRATURA CONCLUSA</string>
+    <string name="decdone">DECIFRATURA CONCLUSA</string>
+    <string name="showbut">MOSTA IL FILE</string>
+    <string name="encbut">CIFRA</string>
+    <string name="decbut">DECIFRA</string>
+    <string name="descLoginData">Questo file contiene tutte le combinazioni di email e password che gli utenti desiderano salvare con il browser Google Chrome. Il furto di questo file può portare a problemi di frode d\'identità.</string>
+    <string name="descEverNotes">Evernote offre la possibilità di proteggere i tuoi appunti con una password, ma non li cripta. Questa vulnerabilità può portare a attacchi mirati di perdita di privacy</string>
+    <string name="descTumblrJournal">Questo file contiene tutti i profili di tumblr che hai visitato di recente. Queste informazioni possono aiutare gli aggressori a costruire attacchi di ingegneria sociale più solidi.</string>
+    <string name="descStalkArya">Ad un certo punto in questo file vedrai i fattori di autenticazione che hai usato per connettere il tuo account social all\'app Stalkeame, mostrati in testo normale. Il comportamento di questa app può portare a gravi frodi relative all\'identità.</string>
+    <string name="descWhatPref">"This file, in some cases, can contain your email and your phone number. This information together can led to well designed phishing attacks     "</string>
+    <string name="descWhatsMsgs">Questo file contiene i backup di tutte le conversazioni di whatsapp, anche quelle cancellate di molti anni fa. Conservare tutte queste informazioni è molto pericoloso, a causa del rischio di perdita della privacy</string>
+    <string name="descBrowAuth">Qui puoi trovare i fattori di autenticazione che hai usato nel browser standard di Android. Lasciare queste informazioni non protette può portare a frodi sull\'identità.</string>
+    <string name="descInstaDirect">In questo file sono memorizzati tutti i tuoi messaggi diretti di instagram. Queste informazioni possono aiutare gli aggressori a costruire complessi attacchi di ingegneria sociale e phishing.</string>
+    <string name="descFaceSave">Qui sono memorizzate tutte le informazioni sugli elementi salvate privatamente in facebook. Queste informazioni possono aiutare gli aggressori a costruire complessi attacchi di ingegneria sociale.</string>
+    <string name="descSaraPref">Sarahah memorizza i tuoi fattori di autenticazione all\'interno di questo file, in testo semplice. Il comportamento di questa app può portare a gravi frodi relative all\'identità.</string>
+    <string name="descRedsubs">In questo file sono memorizzati tutti i subreddit a cui sei iscritto, non solo quelli in cui sei attivo. Queste informazioni possono aiutare gli aggressori a costruire complessi attacchi di social engineering.</string>
+    <string name="descUnfollowContacts">Questo database contiene molte informazioni sui tuoi follower instagram e li ordina in base al numero di interazioni che hai con ognuna di esse. Queste informazioni possono aiutare gli aggressori a costruire attacchi di ingegneria sociale più solidi.</string>
+    <string name="descMessangerThreads">In questo file sono memorizzate tutte le tue conversazioni su Facebook, e ancora di più se si imposta questa app come app predefinita per gli SMS. Queste informazioni possono aiutare gli aggressori a costruire complessi attacchi di ingegneria sociale e phishing.</string>
+    <string name="descLineMess">In questo file sono memorizzati tutti i testi e le conversazioni di Line. Queste informazioni possono aiutare gli aggressori a costruire complessi attacchi di ingegneria sociale e phishing.</string>
+    <string name="descAskPacklist">Questo file contiene una raccolta di tutte le app installate sul tuo dispositivo, oltre alle informazioni sui pacchetti. Queste informazioni possono aiutare gli attaccker a costruire attacchi collouding.</string>
+    <string name="descSkypeAuth">Se hai usato il tuo numero di telefono o la tua email per registrarti su Skype, lo troverai qui. Il numero di telefono o l\'e-mail da soli non sono pericolosi per essere visualizzati in testo normale, ma sapere che puoi migliorarne uno o l\'altro può aiutarti a creare attacchi di phishing.</string>
+    <string name="redditHelper">Cerca una cartella con il tuo nome utente Reddit al suo interno (quello senza \"journal\")</string>
+    <string name="notesHelper">"Cerca una cartella denominata \"utente-\". Lì troverai la cartella \"note\". "</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.fullversion.mobilesecurity.rizziruggiero.KnownVulnerabilities.FileCrypter">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="59dp">
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:text="try me"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorButtonNormal"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/PasseditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/EncButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/PasseditText"
+            android:layout_below="@+id/PasseditText"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mybutton"
+            android:text="@string/encbut"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/DecButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/scrollView2"
+            android:layout_alignEnd="@+id/PasseditText"
+            android:background="@drawable/mybutton"
+            android:text="@string/decbut"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/EncButton"
+            android:layout_marginTop="27dp">
+
+            <TextView
+                android:id="@+id/FeedbacktextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="View hidden"
+                android:textColor="@android:color/black"
+                android:visibility="invisible" />
+
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/SHOWbutton"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/scrollView2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/mybutton"
+            android:fontFamily="monospace"
+            android:text="@string/showbut"
+            android:textAllCaps="false"
+            android:textColor="?android:attr/colorButtonNormal"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="193dp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gradient"
+
+    tools:context="com.fullversion.mobilesecurity.rizziruggiero.KnownVulnerabilities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="391dp"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="19dp"
+            android:text="@string/encdesc"
+            android:textColor="?android:attr/colorButtonNormal"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="18dp"
+            android:text="@string/enctitle"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/maindesc"
+            android:text="@string/maindescription"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="21dp"
+            android:textColor="?android:attr/colorButtonNormal"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/maindesc"
+            android:layout_marginTop="16dp"
+            android:text="KnownVulnerabilities"
+            android:textAllCaps="false"
+            android:textColor="?android:attr/colorBackground"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_marginBottom="14dp"
+            android:text="@string/credits"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/maindesc"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="15dp"
+            android:text="@string/checkdesc"
+            android:textColor="?android:attr/colorButtonNormal"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/maindesc"
+            android:layout_below="@+id/maindesc"
+            android:layout_marginTop="32dp"
+            android:text="@string/checktitle"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold|italic" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/textView10">
+
+            <LinearLayout
+                android:id="@+id/listapps"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="false"
+                android:orientation="vertical"></LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+   <item type="id" name="chromebutton"/>
+    <item name="evernotebutton" type="id" />
+    <item name="customCrypterButton" type="id" />
+    <item name="tublrbutton" type="id" />
+    <item name="journalButton" type="id" />
+    <item name="NoteBrowserButton" type="id" />
+    <item name="LoginDataButton" type="id" />
+    <item name="HistoryButton" type="id" />
+    <item name="CookiesButton" type="id" />
+    <item name="stalkamebutton" type="id" />
+    <item name="stalkaryabutton" type="id" />
+    <item name="whatsappbutton" type="id" />
+ <item name="whatsappprefsbutton" type="id" />
+    <item name="standardbrowser" type="id" />
+ <item name="instabutton" type="id" />
+    <item name="msgstoredbbutton" type="id" />
+ <item name="facebookbutton" type="id" />
+ <item name="standardbrowserauthfactors" type="id" />
+ <item name="instadirectbutton" type="id" />
+ <item name="facebooksavedelementsbutton" type="id" />
+</resources>
